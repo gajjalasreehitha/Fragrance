@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #498092;
+        }
+        header {
+            background-color: #498092;
+            color: #302b2b;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #565353;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://tse2.mm.bing.net/th?id=OIP.sBx6APEYKXvBYMcscWfBSwHaDE&pid=Api&P=0&h=180');
+            color: #565353;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1100px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            text-align: center;
+            padding: 10px;
+           
+            background: #fff;
+            
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background: #222;
+            color: #f5f5f5eb;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aesthetics</h1>
+        <p>Aesthetic perfumes for exquisite fragrances</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div id="home" class="hero">
+        <h2>Discover Your Signature Scent</h2>
+        <p>Explore our exclusive collection of luxurious perfumes.</p>
+    </div>
+    <div id="about" class="section">
+        <h2>About Us</h2>
+        <p>At Aesthetics, we specialize in curating the finest fragrances from around the world. Our passion is to help you find the scent that defines you.</p>
+    </div>
+    <div id="products" class="section">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://png.pngtree.com/background/20230425/original/pngtree-water-flower-petals-ladies-perfume-bottle-fashion-photography-advertising-background-picture-image_2477473.jpg" alt="Elegant Rose Perfume">
+                <h3>Elegant Rose</h3>
+                <p>Rs. 3099</p>
+            </div>
+            <div class="product">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.7SSPdH1iPOV1xZpXLAAuFwHaHa&pid=Api&P=0&h=180" alt="Ocean Breeze Perfume">
+                <h3>Ocean Breeze</h3>
+                <p>Rs. 1999</p>
+            </div>
+            <div class="product">
+                <img src="https://img.freepik.com/free-photo/bottle-perfume-with-word-perfume-it_1340-37484.jpg" alt="Golden Amber Perfume">
+                <h3>Golden Amber</h3>
+                <p>Rs. 3999</p>
+            </div>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://img.freepik.com/premium-photo/perfume_961280-905.jpg" alt="White Touch">
+                    <h3>White Touch</h3>
+                    <p>Rs. 4999</p>
+                </div>  
+        </div>
+    </div>
+    <div id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to us!</p>
+        <p>Email: support@aesthetics.com</p>
+        <p>Phone: +91 1234567890</p>
+    </div>
+   
+</body>
+</html>
